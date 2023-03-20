@@ -1,0 +1,9 @@
+============DEBUG OUTPUT BEGIN============
+Iterations: 100000
+Rounds: 10
+Key File: key.bin
+Input File: input.bin
+Final Cipher Block:
+1d9e5e1c9f1425df9bb46c954b95b411
+=============DEBUG OUTPUT END=============
+1d9e5e1c9f1425df9bb46c954b95b411

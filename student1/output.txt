@@ -1,0 +1,1136 @@
+============DEBUG OUTPUT BEGIN============
+Iterations: 1
+Rounds: 10
+Key File: key.bin
+Input File: input.bin
+** Iteration 0 Start **
+Initialization Vector: 00000000000000000000000000000000
+Plain-text Block:   01c98760923af9283984ae795c8ac1c6
+Last Cipher Block:  00000000000000000000000000000000
+After CBC Chaining: 01c98760923af9283984ae795c8ac1c6
+  Start Encryption of Plain-text Block 0 
+          Input Key: 
+              a7 24 20 d9 
+              dd 9a e4 80 
+              48 33 ea 70 
+              41 cd 4e 2c 
+After Initial Add Round Key:
+    a6 b6 19 85 
+    14 a0 60 0a 
+    cf ca 44 b1 
+    21 e5 37 ea 
+* Round 0 Start *
+After Byte Sub:
+    24 4e d4 97 
+    fa e0 d0 67 
+    8a 74 1b c8 
+    fd d9 9a 87 
+After Row Shift:
+    24 4e d4 97 
+    e0 d0 67 fa 
+    1b c8 8a 74 
+    87 fd d9 9a 
+After Column Mix:
+    ef c2 49 ce 
+    55 4b 46 7e 
+    60 09 cc 30 
+    82 2b 23 03 
+          Round Key: 
+              6b 4f 6f b6 
+              8c 16 f2 72 
+              39 0a e0 90 
+              74 b9 f7 db 
+After Add Round Key:
+    84 8d 26 78 
+    d9 5d b4 0c 
+    59 03 2c a0 
+    f6 92 d4 d8 
+* Round 0 End *
+* Round 1 Start *
+After Byte Sub:
+    5f 5d f7 bc 
+    35 4c 8d fe 
+    cb 7b 71 e0 
+    42 4f 48 61 
+After Row Shift:
+    5f 5d f7 bc 
+    4c 8d fe 35 
+    71 e0 cb 7b 
+    61 42 4f 48 
+After Column Mix:
+    7a 94 68 0f 
+    35 25 19 13 
+    52 cd 55 a7 
+    1e 0e a9 01 
+          Round Key: 
+              29 66 09 bf 
+              ec fa 08 7a 
+              80 8a 6a fa 
+              3a 83 74 af 
+After Add Round Key:
+    53 f2 61 b0 
+    d9 df 11 69 
+    d2 47 3f 5d 
+    24 8d dd ae 
+* Round 1 End *
+* Round 2 Start *
+After Byte Sub:
+    ed 89 ef e7 
+    35 9e 82 f9 
+    b5 a0 75 4c 
+    36 5d c1 e4 
+After Row Shift:
+    ed 89 ef e7 
+    9e 82 f9 35 
+    75 4c b5 a0 
+    e4 36 5d c1 
+After Column Mix:
+    e9 ee 3d eb 
+    b1 74 9f b7 
+    ae c9 80 d1 
+    14 22 dc 3e 
+          Round Key: 
+              f7 91 98 27 
+              c1 3b 33 49 
+              f9 73 19 e3 
+              32 b1 c5 6a 
+After Add Round Key:
+    1e 7f a5 cc 
+    70 4f ac fe 
+    57 ba 99 32 
+    26 93 19 54 
+* Round 2 End *
+* Round 3 Start *
+After Byte Sub:
+    72 d2 06 4b 
+    51 84 91 bb 
+    5b f4 ee 23 
+    f7 dc d4 20 
+After Row Shift:
+    72 d2 06 4b 
+    84 91 bb 51 
+    ee 23 5b f4 
+    20 f7 dc d4 
+After Column Mix:
+    bd c3 5d 45 
+    68 79 5a 3a 
+    51 07 74 8e 
+    bc 2a 49 cb 
+          Round Key: 
+              c4 55 cd ea 
+              d0 eb d8 91 
+              fb 88 91 72 
+              fe 4f 8a e0 
+After Add Round Key:
+    79 96 90 af 
+    b8 92 82 ab 
+    aa 8f e5 fc 
+    42 65 c3 2b 
+* Round 3 End *
+* Round 4 Start *
+After Byte Sub:
+    b6 90 60 79 
+    6c 4f 13 62 
+    ac 73 d9 b0 
+    2c 4d 2e f1 
+After Row Shift:
+    b6 90 60 79 
+    4f 13 62 6c 
+    d9 b0 ac 73 
+    f1 2c 4d 2e 
+After Column Mix:
+    8e 92 87 1b 
+    a9 51 06 1a 
+    58 8c 96 81 
+    ae 50 f4 c8 
+          Round Key: 
+              55 00 cd 27 
+              90 7b a3 32 
+              1a 92 03 71 
+              79 36 bc 5c 
+After Add Round Key:
+    db 92 4a 3c 
+    39 2a a5 28 
+    42 1e 95 f0 
+    d7 66 48 94 
+* Round 4 End *
+* Round 5 Start *
+After Byte Sub:
+    b9 4f d6 eb 
+    12 e5 06 34 
+    2c 72 2a 8c 
+    0e 33 52 22 
+After Row Shift:
+    b9 4f d6 eb 
+    e5 06 34 12 
+    2a 8c 2c 72 
+    22 0e 33 52 
+After Column Mix:
+    55 16 f4 db 
+    34 c2 f9 0b 
+    6e 58 ef eb 
+    5b 47 1f e2 
+          Round Key: 
+              56 56 9b bc 
+              33 48 eb d9 
+              50 c2 c1 b0 
+              b5 83 3f 63 
+After Add Round Key:
+    03 40 6f 67 
+    07 8a 12 d2 
+    3e 9a 2e 5b 
+    ee c4 20 81 
+* Round 5 End *
+* Round 6 Start *
+After Byte Sub:
+    7b 09 a8 85 
+    c5 7e c9 b5 
+    b2 b8 31 39 
+    28 1c b7 0c 
+After Row Shift:
+    7b 09 a8 85 
+    7e c9 b5 c5 
+    31 39 b2 b8 
+    0c 28 1c b7 
+After Column Mix:
+    49 43 21 4a 
+    d8 e3 08 70 
+    73 ca 46 e9 
+    da bb dc 9c 
+          Round Key: 
+              23 75 ee 52 
+              d4 9c 77 ae 
+              ab 69 a8 18 
+              d0 53 6c 0f 
+After Add Round Key:
+    6a 36 cf 18 
+    0c 7f 7f de 
+    d8 a3 ee f1 
+    0a e8 b0 93 
+* Round 6 End *
+* Round 7 Start *
+After Byte Sub:
+    02 05 8a ad 
+    fe d2 d2 1d 
+    61 0a 28 a1 
+    67 9b e7 dc 
+After Row Shift:
+    02 05 8a ad 
+    d2 d2 1d fe 
+    28 a1 61 0a 
+    dc 67 9b e7 
+After Column Mix:
+    9d a1 d2 b5 
+    19 25 88 b3 
+    ff 27 e3 75 
+    5f b2 d4 cd 
+          Round Key: 
+              47 32 dc 8e 
+              79 e5 92 3c 
+              dd b4 1c 04 
+              d0 83 ef e0 
+After Add Round Key:
+    da 93 0e 3b 
+    60 c0 1a 8f 
+    22 93 ff 71 
+    8f 31 3b 2d 
+* Round 7 End *
+* Round 8 Start *
+After Byte Sub:
+    57 dc ab e2 
+    d0 ba a2 73 
+    93 dc 16 a3 
+    73 c7 e2 d8 
+After Row Shift:
+    57 dc ab e2 
+    ba a2 73 d0 
+    16 a3 93 dc 
+    d8 73 c7 e2 
+After Column Mix:
+    b5 8e 8c 8a 
+    da 0e 24 c4 
+    b2 b6 b7 ac 
+    fe 98 93 ee 
+          Round Key: 
+              b7 85 59 d7 
+              8b 6e fc c0 
+              3c 88 94 90 
+              c9 4a a5 45 
+After Add Round Key:
+    02 0b d5 5d 
+    51 60 d8 04 
+    8e 3e 23 3c 
+    37 d2 36 ab 
+* Round 8 End *
+* Round 9 Start *
+After Byte Sub:
+    77 2b 03 4c 
+    d1 d0 61 f2 
+    19 b2 26 eb 
+    9a b5 05 62 
+After Row Shift:
+    77 2b 03 4c 
+    d0 61 f2 d1 
+    26 eb 19 b2 
+    62 9a b5 05 
+Column Mix Skipped
+          Round Key: 
+              3b be e7 30 
+              eb 85 79 b9 
+              52 da 4e de 
+              c7 8d 28 6d 
+After Add Round Key:
+    4c 95 e4 7c 
+    3b e4 8b 68 
+    74 31 57 6c 
+    a5 17 9d 68 
+* Round 9 End *
+  End Encryption of Plain-text Block 0 
+Plain-text Block:   2f1deb967a26414738ffb0ef9f0fb2b6
+Last Cipher Block:  4c3b74a595e43117e48b579d7c686c68
+After CBC Chaining: 63269f33efc27050dc74e772e367dede
+  Start Encryption of Plain-text Block 1 
+          Input Key: 
+              a7 24 20 d9 
+              dd 9a e4 80 
+              48 33 ea 70 
+              41 cd 4e 2c 
+After Initial Add Round Key:
+    c4 cb fc 3a 
+    fb 58 90 e7 
+    d7 43 0d ae 
+    72 9d 3c f2 
+* Round 0 Start *
+After Byte Sub:
+    1c 1f b0 80 
+    0f 6a 60 94 
+    0e 1a d7 e4 
+    40 5e eb 89 
+After Row Shift:
+    1c 1f b0 80 
+    6a 60 94 0f 
+    d7 e4 0e 1a 
+    89 40 5e eb 
+After Column Mix:
+    d8 3a 8c fb 
+    23 a8 cf 5b 
+    43 6c da 9d 
+    90 25 ed 43 
+          Round Key: 
+              6b 4f 6f b6 
+              8c 16 f2 72 
+              39 0a e0 90 
+              74 b9 f7 db 
+After Add Round Key:
+    b3 75 e3 4d 
+    af be 3d 29 
+    7a 66 3a 0d 
+    e4 9c 1a 98 
+* Round 0 End *
+* Round 1 Start *
+After Byte Sub:
+    6d 9d 11 e3 
+    79 ae 27 a5 
+    da 33 80 d7 
+    69 de a2 46 
+After Row Shift:
+    6d 9d 11 e3 
+    ae 27 a5 79 
+    80 d7 da 33 
+    46 69 de a2 
+After Column Mix:
+    f5 f6 d2 c7 
+    f7 d8 eb e6 
+    12 b4 62 01 
+    15 9e eb 2b 
+          Round Key: 
+              29 66 09 bf 
+              ec fa 08 7a 
+              80 8a 6a fa 
+              3a 83 74 af 
+After Add Round Key:
+    dc 90 db 78 
+    1b 22 e3 9c 
+    92 3e 08 fb 
+    2f 1d 9f 84 
+* Round 1 End *
+* Round 2 Start *
+After Byte Sub:
+    86 60 b9 bc 
+    af 93 11 de 
+    4f b2 30 0f 
+    15 a4 db 5f 
+After Row Shift:
+    86 60 b9 bc 
+    93 11 de af 
+    30 0f 4f b2 
+    5f 15 a4 db 
+After Column Mix:
+    d6 e9 fb e0 
+    b4 46 6b ef 
+    94 50 0e 1a 
+    8c 94 12 6f 
+          Round Key: 
+              f7 91 98 27 
+              c1 3b 33 49 
+              f9 73 19 e3 
+              32 b1 c5 6a 
+After Add Round Key:
+    21 78 63 c7 
+    75 7d 58 a6 
+    6d 23 17 f9 
+    be 25 d7 05 
+* Round 2 End *
+* Round 3 Start *
+After Byte Sub:
+    fd bc fb c6 
+    9d ff 6a 24 
+    3c 26 f0 99 
+    ae 3f 0e 6b 
+After Row Shift:
+    fd bc fb c6 
+    ff 6a 24 9d 
+    f0 99 3c 26 
+    6b ae 3f 0e 
+After Column Mix:
+    60 ea 82 03 
+    78 76 c8 83 
+    44 16 e6 05 
+    c5 6b 70 f6 
+          Round Key: 
+              c4 55 cd ea 
+              d0 eb d8 91 
+              fb 88 91 72 
+              fe 4f 8a e0 
+After Add Round Key:
+    a4 bf 4f e9 
+    a8 9d 10 12 
+    bf 9e 77 77 
+    3b 24 fa 16 
+* Round 3 End *
+* Round 4 Start *
+After Byte Sub:
+    49 08 84 1e 
+    c2 5e ca c9 
+    08 0b f5 f5 
+    e2 36 2d 47 
+After Row Shift:
+    49 08 84 1e 
+    5e ca c9 c2 
+    f5 f5 08 0b 
+    47 e2 36 2d 
+After Column Mix:
+    c2 42 6d 47 
+    b6 61 23 b1 
+    2f 0e 07 bd 
+    fe f8 3a b1 
+          Round Key: 
+              55 00 cd 27 
+              90 7b a3 32 
+              1a 92 03 71 
+              79 36 bc 5c 
+After Add Round Key:
+    97 42 a0 60 
+    26 1a 80 83 
+    35 9c 04 cc 
+    87 ce 86 ed 
+* Round 4 End *
+* Round 5 Start *
+After Byte Sub:
+    88 2c e0 d0 
+    f7 a2 cd ec 
+    96 de f2 4b 
+    17 8b 44 55 
+After Row Shift:
+    88 2c e0 d0 
+    a2 cd ec f7 
+    f2 4b 96 de 
+    55 17 8b 44 
+After Column Mix:
+    51 48 e9 23 
+    8f 67 09 18 
+    2a 4e bd 4c 
+    79 dc 4c ca 
+          Round Key: 
+              56 56 9b bc 
+              33 48 eb d9 
+              50 c2 c1 b0 
+              b5 83 3f 63 
+After Add Round Key:
+    07 1e 72 9f 
+    bc 2f e2 c1 
+    7a 8c 7c fc 
+    cc 5f 73 a9 
+* Round 5 End *
+* Round 6 Start *
+After Byte Sub:
+    c5 72 40 db 
+    65 15 98 78 
+    da 64 10 b0 
+    4b cf 8f d3 
+After Row Shift:
+    c5 72 40 db 
+    15 98 78 65 
+    10 b0 da 64 
+    d3 4b cf 8f 
+After Column Mix:
+    6d ac 1d e9 
+    0c d9 0a 32 
+    9e 4c dd fc 
+    ec 28 e7 72 
+          Round Key: 
+              23 75 ee 52 
+              d4 9c 77 ae 
+              ab 69 a8 18 
+              d0 53 6c 0f 
+After Add Round Key:
+    4e d9 f3 bb 
+    d8 45 7d 9c 
+    35 25 75 e4 
+    3c 7b 8b 7d 
+* Round 6 End *
+* Round 7 Start *
+After Byte Sub:
+    2f 35 0d ea 
+    61 6e ff de 
+    96 3f 9d 69 
+    eb 21 3d ff 
+After Row Shift:
+    2f 35 0d ea 
+    6e ff de 61 
+    9d 69 96 3f 
+    ff eb 21 3d 
+After Column Mix:
+    8e f2 d4 6e 
+    b0 80 2a 54 
+    7a 3e 87 b2 
+    67 04 1d 01 
+          Round Key: 
+              47 32 dc 8e 
+              79 e5 92 3c 
+              dd b4 1c 04 
+              d0 83 ef e0 
+After Add Round Key:
+    c9 c0 08 e0 
+    c9 65 b8 68 
+    a7 8a 9b b6 
+    b7 87 f2 e1 
+* Round 7 End *
+* Round 8 Start *
+After Byte Sub:
+    dd ba 30 e1 
+    dd 4d 6c 45 
+    5c 7e 14 4e 
+    a9 17 89 f8 
+After Row Shift:
+    dd ba 30 e1 
+    4d 6c 45 dd 
+    14 4e 5c 7e 
+    f8 a9 17 89 
+After Column Mix:
+    9a 3c e4 52 
+    83 19 49 4b 
+    ab aa f4 40 
+    ce be 67 92 
+          Round Key: 
+              b7 85 59 d7 
+              8b 6e fc c0 
+              3c 88 94 90 
+              c9 4a a5 45 
+After Add Round Key:
+    2d b9 bd 85 
+    08 77 b5 8b 
+    97 22 60 d0 
+    07 f4 c2 d7 
+* Round 8 End *
+* Round 9 Start *
+After Byte Sub:
+    d8 56 7a 97 
+    30 f5 d5 3d 
+    88 93 d0 70 
+    c5 bf 25 0e 
+After Row Shift:
+    d8 56 7a 97 
+    f5 d5 3d 30 
+    d0 70 88 93 
+    0e c5 bf 25 
+Column Mix Skipped
+          Round Key: 
+              3b be e7 30 
+              eb 85 79 b9 
+              52 da 4e de 
+              c7 8d 28 6d 
+After Add Round Key:
+    e3 e8 9d a7 
+    1e 50 44 89 
+    82 aa c6 4d 
+    c9 48 97 48 
+* Round 9 End *
+  End Encryption of Plain-text Block 1 
+Plain-text Block:   6689602a3fbc76fb38c9287d8612ff21
+Last Cipher Block:  e31e82c9e850aa489d44c697a7894d48
+After CBC Chaining: 8597e2e3d7ecdcb3a58deeea219bb269
+  Start Encryption of Plain-text Block 2 
+          Input Key: 
+              a7 24 20 d9 
+              dd 9a e4 80 
+              48 33 ea 70 
+              41 cd 4e 2c 
+After Initial Add Round Key:
+    22 f3 85 f8 
+    4a 76 69 1b 
+    aa ef 04 c2 
+    a2 7e a4 45 
+* Round 0 Start *
+After Byte Sub:
+    93 0d 97 41 
+    d6 38 f9 af 
+    ac df f2 25 
+    3a f3 49 6e 
+After Row Shift:
+    93 0d 97 41 
+    38 f9 af d6 
+    f2 25 ac df 
+    6e 3a f3 49 
+After Column Mix:
+    e9 15 80 75 
+    80 b1 ce c5 
+    e6 f0 75 e9 
+    b8 bf 5c 58 
+          Round Key: 
+              6b 4f 6f b6 
+              8c 16 f2 72 
+              39 0a e0 90 
+              74 b9 f7 db 
+After Add Round Key:
+    82 5a ef c3 
+    0c a7 3c b7 
+    df fa 95 79 
+    cc 06 ab 83 
+* Round 0 End *
+* Round 1 Start *
+After Byte Sub:
+    13 be df 2e 
+    fe 5c eb a9 
+    9e 2d 2a b6 
+    4b 6f 62 ec 
+After Row Shift:
+    13 be df 2e 
+    5c eb a9 fe 
+    2a b6 9e 2d 
+    ec 4b 6f 62 
+After Column Mix:
+    04 bc b4 0a 
+    39 f9 40 dc 
+    34 ff e0 2c 
+    80 12 93 65 
+          Round Key: 
+              29 66 09 bf 
+              ec fa 08 7a 
+              80 8a 6a fa 
+              3a 83 74 af 
+After Add Round Key:
+    2d da bd b5 
+    d5 03 48 a6 
+    b4 75 8a d6 
+    ba 91 e7 ca 
+* Round 1 End *
+* Round 2 Start *
+After Byte Sub:
+    d8 57 7a d5 
+    03 7b 52 24 
+    8d 9d 7e f6 
+    f4 81 94 74 
+After Row Shift:
+    d8 57 7a d5 
+    7b 52 24 03 
+    7e f6 8d 9d 
+    74 f4 81 94 
+After Column Mix:
+    2c 5a 94 bd 
+    d8 06 3f fb 
+    c3 f5 c7 50 
+    9e ae 3e c9 
+          Round Key: 
+              f7 91 98 27 
+              c1 3b 33 49 
+              f9 73 19 e3 
+              32 b1 c5 6a 
+After Add Round Key:
+    db cb 0c 9a 
+    19 3d 0c b2 
+    3a 86 de b3 
+    ac 1f fb a3 
+* Round 2 End *
+* Round 3 Start *
+After Byte Sub:
+    b9 1f fe b8 
+    d4 27 fe 37 
+    80 44 1d 6d 
+    91 c0 0f 0a 
+After Row Shift:
+    b9 1f fe b8 
+    27 fe 37 d4 
+    1d 6d 80 44 
+    0a 91 c0 0f 
+After Column Mix:
+    17 db fe 47 
+    da de cb c8 
+    ba 93 89 f5 
+    fe 8b 35 5d 
+          Round Key: 
+              c4 55 cd ea 
+              d0 eb d8 91 
+              fb 88 91 72 
+              fe 4f 8a e0 
+After Add Round Key:
+    d3 8e 33 ad 
+    0a 35 13 59 
+    41 1b 18 87 
+    00 c4 bf bd 
+* Round 3 End *
+* Round 4 Start *
+After Byte Sub:
+    66 19 c3 95 
+    67 96 7d cb 
+    83 af ad 17 
+    63 1c 08 7a 
+After Row Shift:
+    66 19 c3 95 
+    96 7d cb 67 
+    ad 17 83 af 
+    7a 63 1c 08 
+After Column Mix:
+    ba c1 44 3f 
+    c7 b9 cc b9 
+    3f ef 31 af 
+    65 87 2e 7c 
+          Round Key: 
+              55 00 cd 27 
+              90 7b a3 32 
+              1a 92 03 71 
+              79 36 bc 5c 
+After Add Round Key:
+    ef c1 89 18 
+    57 c2 6f 8b 
+    25 7d 32 de 
+    1c b1 92 20 
+* Round 4 End *
+* Round 5 Start *
+After Byte Sub:
+    df 78 a7 ad 
+    5b 25 a8 3d 
+    3f ff 23 1d 
+    9c c8 4f b7 
+After Row Shift:
+    df 78 a7 ad 
+    25 a8 3d 5b 
+    23 1d 3f ff 
+    b7 9c c8 4f 
+After Column Mix:
+    5e 92 e5 1c 
+    47 88 54 4e 
+    7e 55 a7 c2 
+    09 1e 7b d6 
+          Round Key: 
+              56 56 9b bc 
+              33 48 eb d9 
+              50 c2 c1 b0 
+              b5 83 3f 63 
+After Add Round Key:
+    08 c4 7e a0 
+    74 c0 bf 97 
+    2e 97 66 72 
+    bc 9d 44 b5 
+* Round 5 End *
+* Round 6 Start *
+After Byte Sub:
+    30 1c f3 e0 
+    92 ba 08 88 
+    31 88 33 40 
+    65 5e 1b d5 
+After Row Shift:
+    30 1c f3 e0 
+    ba 08 88 92 
+    33 40 31 88 
+    d5 65 5e 1b 
+After Column Mix:
+    53 05 11 e5 
+    df a9 f5 47 
+    88 3b fb 54 
+    68 a6 0b 17 
+          Round Key: 
+              23 75 ee 52 
+              d4 9c 77 ae 
+              ab 69 a8 18 
+              d0 53 6c 0f 
+After Add Round Key:
+    70 70 ff b7 
+    0b 35 82 e9 
+    23 52 53 4c 
+    b8 f5 67 18 
+* Round 6 End *
+* Round 7 Start *
+After Byte Sub:
+    51 51 16 a9 
+    2b 96 13 1e 
+    26 00 ed 29 
+    6c e6 85 ad 
+After Row Shift:
+    51 51 16 a9 
+    96 13 1e 2b 
+    ed 29 26 00 
+    ad 6c e6 85 
+After Column Mix:
+    43 d2 ce b1 
+    e7 60 a6 7a 
+    ea a4 75 16 
+    c9 11 d5 da 
+          Round Key: 
+              47 32 dc 8e 
+              79 e5 92 3c 
+              dd b4 1c 04 
+              d0 83 ef e0 
+After Add Round Key:
+    04 e0 12 3f 
+    9e 85 34 46 
+    37 10 69 12 
+    19 92 3a 3a 
+* Round 7 End *
+* Round 8 Start *
+After Byte Sub:
+    f2 e1 c9 75 
+    0b 97 18 5a 
+    9a ca f9 c9 
+    d4 4f 80 80 
+After Row Shift:
+    f2 e1 c9 75 
+    97 18 5a 0b 
+    f9 c9 9a ca 
+    80 d4 4f 80 
+After Column Mix:
+    24 ec b2 bd 
+    57 45 87 a6 
+    17 17 6d 6a 
+    78 5a 1e 45 
+          Round Key: 
+              b7 85 59 d7 
+              8b 6e fc c0 
+              3c 88 94 90 
+              c9 4a a5 45 
+After Add Round Key:
+    93 69 eb 6a 
+    dc 2b 7b 66 
+    2b 9f f9 fa 
+    b1 10 bb 00 
+* Round 8 End *
+* Round 9 Start *
+After Byte Sub:
+    dc f9 e9 02 
+    86 f1 21 33 
+    f1 db 99 2d 
+    c8 ca ea 63 
+After Row Shift:
+    dc f9 e9 02 
+    f1 21 33 86 
+    99 2d f1 db 
+    63 c8 ca ea 
+Column Mix Skipped
+          Round Key: 
+              3b be e7 30 
+              eb 85 79 b9 
+              52 da 4e de 
+              c7 8d 28 6d 
+After Add Round Key:
+    e7 47 0e 32 
+    1a a4 4a 3f 
+    cb f7 bf 05 
+    a4 45 e2 87 
+* Round 9 End *
+  End Encryption of Plain-text Block 2 
+Plain-text Block:   303c0e0e0e0e0e0e0e0e0e0e0e0e0e0e
+Last Cipher Block:  e71acba447a4f7450e4abfe2323f0587
+After CBC Chaining: d726c5aa49aaf94b0044b1ec3c310b89
+  Start Encryption of Plain-text Block 3 
+          Input Key: 
+              a7 24 20 d9 
+              dd 9a e4 80 
+              48 33 ea 70 
+              41 cd 4e 2c 
+After Initial Add Round Key:
+    70 6d 20 e5 
+    fb 30 a0 b1 
+    8d ca 5b 7b 
+    eb 86 a2 a5 
+* Round 0 Start *
+After Byte Sub:
+    51 3c b7 d9 
+    0f 04 e0 c8 
+    5d 74 39 21 
+    e9 44 3a 06 
+After Row Shift:
+    51 3c b7 d9 
+    04 e0 c8 0f 
+    39 21 5d 74 
+    06 e9 44 3a 
+After Column Mix:
+    91 8b 2f f6 
+    14 6d 9f 61 
+    2d be 09 70 
+    c2 4c df 7f 
+          Round Key: 
+              6b 4f 6f b6 
+              8c 16 f2 72 
+              39 0a e0 90 
+              74 b9 f7 db 
+After Add Round Key:
+    fa c4 40 40 
+    98 7b 6d 13 
+    14 b4 e9 e0 
+    b6 f5 28 a4 
+* Round 0 End *
+* Round 1 Start *
+After Byte Sub:
+    2d 1c 09 09 
+    46 21 3c 7d 
+    fa 8d 1e e1 
+    4e e6 34 49 
+After Row Shift:
+    2d 1c 09 09 
+    21 3c 7d 46 
+    1e e1 fa 8d 
+    49 4e e6 34 
+After Column Mix:
+    6e d3 89 61 
+    04 12 00 3d 
+    eb 2b aa 12 
+    da 65 4b b8 
+          Round Key: 
+              29 66 09 bf 
+              ec fa 08 7a 
+              80 8a 6a fa 
+              3a 83 74 af 
+After Add Round Key:
+    47 b5 80 de 
+    e8 e8 08 47 
+    6b a1 c0 e8 
+    e0 e6 3f 17 
+* Round 1 End *
+* Round 2 Start *
+After Byte Sub:
+    a0 d5 cd 1d 
+    9b 9b 30 a0 
+    7f 32 ba 9b 
+    e1 8e 75 f0 
+After Row Shift:
+    a0 d5 cd 1d 
+    9b 30 a0 9b 
+    ba 9b 7f 32 
+    f0 e1 8e 75 
+After Column Mix:
+    a7 9b 8b cb 
+    a8 e2 99 13 
+    5f f0 1a 7d 
+    21 16 94 64 
+          Round Key: 
+              f7 91 98 27 
+              c1 3b 33 49 
+              f9 73 19 e3 
+              32 b1 c5 6a 
+After Add Round Key:
+    50 0a 13 ec 
+    69 d9 aa 5a 
+    a6 83 03 9e 
+    13 a7 51 0e 
+* Round 2 End *
+* Round 3 Start *
+After Byte Sub:
+    53 67 7d ce 
+    f9 35 ac be 
+    24 ec 7b 0b 
+    7d 5c d1 ab 
+After Row Shift:
+    53 67 7d ce 
+    35 ac be f9 
+    7b 0b 24 ec 
+    ab 7d 5c d1 
+After Column Mix:
+    29 57 5b aa 
+    1f 44 2a d9 
+    76 5a 6f 9c 
+    f6 f4 a5 e5 
+          Round Key: 
+              c4 55 cd ea 
+              d0 eb d8 91 
+              fb 88 91 72 
+              fe 4f 8a e0 
+After Add Round Key:
+    ed 02 96 40 
+    cf af f2 48 
+    8d d2 fe ee 
+    08 bb 2f 05 
+* Round 3 End *
+* Round 4 Start *
+After Byte Sub:
+    55 77 90 09 
+    8a 79 89 52 
+    5d b5 bb 28 
+    30 ea 15 6b 
+After Row Shift:
+    55 77 90 09 
+    79 89 52 8a 
+    bb 28 5d b5 
+    6b 30 ea 15 
+After Column Mix:
+    f1 76 7a 37 
+    1a 36 39 d7 
+    fc fe 5d cd 
+    eb 58 6b 0e 
+          Round Key: 
+              55 00 cd 27 
+              90 7b a3 32 
+              1a 92 03 71 
+              79 36 bc 5c 
+After Add Round Key:
+    a4 76 b7 10 
+    8a 4d 9a e5 
+    e6 6c 5e bc 
+    92 6e d7 52 
+* Round 4 End *
+* Round 5 Start *
+After Byte Sub:
+    49 38 a9 ca 
+    7e e3 b8 d9 
+    8e 50 58 65 
+    4f 9f 0e 00 
+After Row Shift:
+    49 38 a9 ca 
+    e3 b8 d9 7e 
+    58 65 8e 50 
+    00 4f 9f 0e 
+After Column Mix:
+    f4 89 28 53 
+    7c b3 16 c8 
+    1a 9b cd 06 
+    60 0b 92 77 
+          Round Key: 
+              56 56 9b bc 
+              33 48 eb d9 
+              50 c2 c1 b0 
+              b5 83 3f 63 
+After Add Round Key:
+    a2 df b3 ef 
+    4f fb fd 11 
+    4a 59 0c b6 
+    d5 88 ad 14 
+* Round 5 End *
+* Round 6 Start *
+After Byte Sub:
+    3a 9e 6d df 
+    84 0f 54 82 
+    d6 cb fe 4e 
+    03 c4 95 fa 
+After Row Shift:
+    3a 9e 6d df 
+    0f 54 82 84 
+    fe 4e d6 cb 
+    fa 03 c4 95 
+After Column Mix:
+    61 96 55 6c 
+    c7 e7 d7 1f 
+    c7 53 0f 72 
+    50 a5 70 04 
+          Round Key: 
+              23 75 ee 52 
+              d4 9c 77 ae 
+              ab 69 a8 18 
+              d0 53 6c 0f 
+After Add Round Key:
+    42 e3 bb 3e 
+    13 7b a0 b1 
+    6c 3a a7 6a 
+    80 f6 1c 0b 
+* Round 6 End *
+* Round 7 Start *
+After Byte Sub:
+    2c 11 ea b2 
+    7d 21 e0 c8 
+    50 80 5c 02 
+    cd 42 9c 2b 
+After Row Shift:
+    2c 11 ea b2 
+    21 e0 c8 7d 
+    5c 02 50 80 
+    2b cd 42 9c 
+After Column Mix:
+    4c d6 9e e4 
+    a1 01 d3 4f 
+    c8 b9 44 6b 
+    5f 50 39 13 
+          Round Key: 
+              47 32 dc 8e 
+              79 e5 92 3c 
+              dd b4 1c 04 
+              d0 83 ef e0 
+After Add Round Key:
+    0b e4 42 6a 
+    d8 e4 41 73 
+    15 0d 58 6f 
+    8f d3 d6 f3 
+* Round 7 End *
+* Round 8 Start *
+After Byte Sub:
+    2b 69 2c 02 
+    61 69 83 8f 
+    59 d7 6a a8 
+    73 66 f6 0d 
+After Row Shift:
+    2b 69 2c 02 
+    69 83 8f 61 
+    6a a8 59 d7 
+    0d 73 66 f6 
+After Column Mix:
+    8a 97 ed 86 
+    4a e4 a4 54 
+    81 34 bb d7 
+    64 76 6e 47 
+          Round Key: 
+              b7 85 59 d7 
+              8b 6e fc c0 
+              3c 88 94 90 
+              c9 4a a5 45 
+After Add Round Key:
+    3d 12 b4 51 
+    c1 8a 58 94 
+    bd bc 2f 47 
+    ad 3c cb 02 
+* Round 8 End *
+* Round 9 Start *
+After Byte Sub:
+    27 c9 8d d1 
+    78 7e 6a 22 
+    7a 65 15 a0 
+    95 eb 1f 77 
+After Row Shift:
+    27 c9 8d d1 
+    7e 6a 22 78 
+    15 a0 7a 65 
+    77 95 eb 1f 
+Column Mix Skipped
+          Round Key: 
+              3b be e7 30 
+              eb 85 79 b9 
+              52 da 4e de 
+              c7 8d 28 6d 
+After Add Round Key:
+    1c 77 6a e1 
+    95 ef 5b c1 
+    47 7a 34 bb 
+    b0 18 c3 72 
+* Round 9 End *
+  End Encryption of Plain-text Block 3 
+** Iteration 0 End **
+Final Cipher Block:
+1c9547b077ef7a186a5b34c3e1c1bb72
+=============DEBUG OUTPUT END=============
+1c9547b077ef7a186a5b34c3e1c1bb72
